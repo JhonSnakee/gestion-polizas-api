@@ -252,7 +252,7 @@ Restriccion de negocio en BD:
 └───────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Endpoints implementados (Modulo 2)
+## MODULO 2 — Endpoints implementados
 
 | Metodo | URL | Descripcion | Regla de negocio |
 |--------|-----|-------------|-----------------|
@@ -267,9 +267,9 @@ Restriccion de negocio en BD:
 | `POST` | `/api/v1/riesgos/{id}/cancelar` | Cancelar riesgo | Solo COLECTIVA |
 | `POST` | `/core-mock/evento` | Mock CORE legado | Sin autenticacion |
 
---- — Optimizacion de Base de Datos
+---
 
-### Consulta a optimizar
+## MODULO 3 — Conocimientos en BBDD
 
 ```sql
 SELECT o.order_id, o.order_date, c.customer_name, o.total_amount
