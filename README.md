@@ -282,3 +282,8 @@ mvn test
 | 17 | POST /riesgos/{id}/cancelar ya CANCELADO → 422 | Estado invalido |
 | 18 | POST /core-mock/evento sin API Key → 200 | Mock CORE |
 
+---
+
+## 📬 Contacto
+
+> Desarrollado con cariño por [@JhonSnakee](https://github.com/JhonSnakee)
